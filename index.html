@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Farcaster Mini App Meta Tags -->
+    <meta property="fc:miniapp" content="true" />
+    <meta property="fc:miniapp:name" content="Joke Generator" />
+    <meta property="fc:miniapp:description"
+        content="Get a fresh dose of tech humor! Click to generate funny programming, crypto, and tech jokes." />
+    <meta property="fc:miniapp:icon" content="😂" />
+    <meta property="og:title" content="Joke Generator - Farcaster Mini App" />
+    <meta property="og:description" content="Generate hilarious tech and programming jokes on demand!" />
+
+    <title>Joke Generator - Farcaster Mini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>😂 Joke Generator</h1>
+            <p>Your daily dose of tech humor</p>
+        </header>
+
+        <!-- Joke Display Card -->
+        <div class="joke-card">
+            <p id="jokeText" class="joke-text loading">
+                Click the button below for a hilarious joke
+            </p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="buttons">
+            <button id="jokeBtn" class="btn btn-primary">
+                <span>🎲 Tell Me a Joke</span>
+            </button>
+            <button id="shareBtn" class="btn btn-secondary" disabled>
+                <span>📤 Share on Farcaster</span>
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for <a href="https://www.farcaster.xyz/" target="_blank">Farcaster</a></p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="jokes.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

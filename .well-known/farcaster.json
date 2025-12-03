@@ -1,0 +1,20 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
+        "payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
+        "signature": "MHg..."
+    },
+    "miniapp": {
+        "name": "Joke Generator",
+        "description": "A fun mini app that generates hilarious programming, tech, and crypto jokes on demand. Perfect for a quick laugh!",
+        "icon": "😂",
+        "version": "1.0.0",
+        "author": "Your Name",
+        "homepage": "https://your-domain.com",
+        "categories": [
+            "entertainment",
+            "fun",
+            "humor"
+        ]
+    }
+}
