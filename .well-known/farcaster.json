@@ -4,17 +4,11 @@
         "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItam9rZS1hcHAudmVyY2VsLmFwcCJ9",
         "signature": "WSIo43uy0laNtCmdutf/pi9p+MVpICDjzHXBf9EIXa1VWzNVxGDpIOu3jyBwUwlL2pQBO/ttD3mheIobpUFktBw="
     },
-    "miniapp": {
+    "frame": {
+        "version": "1",
         "name": "Joke Generator",
-        "description": "A fun mini app that generates hilarious programming, tech, and crypto jokes on demand. Perfect for a quick laugh!",
-        "icon": "😂",
-        "version": "1.0.0",
-        "author": "Your Name",
-        "homepage": "https://farcaster-joke-app.vercel.app",
-        "categories": [
-            "entertainment",
-            "fun",
-            "humor"
-        ]
+        "iconUrl": "https://farcaster-joke-app.vercel.app/icon.png",
+        "homeUrl": "https://farcaster-joke-app.vercel.app",
+        "primaryCategory": "entertainment"
     }
 }
