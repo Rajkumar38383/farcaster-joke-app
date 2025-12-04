@@ -1,8 +1,8 @@
 {
     "accountAssociation": {
-        "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
-        "payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
-        "signature": "MHg..."
+        "header": "eyJmaWQiOjIzMjM2NiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ5MEQ5NjE0NTQ0MUEzMDM5ODVmYWQzRjdjOTYwQzE4MmRmQ2U2RDgifQ",
+        "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItam9rZS1hcHAudmVyY2VsLmFwcCJ9",
+        "signature": "WSIo43uy0laNtCmdutf/pi9p+MVpICDjzHXBf9EIXa1VWzNVxGDpIOu3jyBwUwlL2pQBO/ttD3mheIobpUFktBw="
     },
     "miniapp": {
         "name": "Joke Generator",
